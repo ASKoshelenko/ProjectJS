@@ -1,0 +1,50 @@
+:root {
+    --black: rgb(40,15,54);
+    --violet: rgb(99,43,108);
+    --pink: rgb(200,107,152);
+    --animo: rgb(240,159,156);
+    --light: rgb(255,193,160);
+}
+html, body {
+    height: 100%;
+}
+
+body{
+    background: url('assets/bg.jpeg') center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.bgc-light {
+    background-color: var(--light);
+}
+
+.bgc-violet {
+    background-color: var(--violet);
+}
+
+.bgc-pink {
+    background-color: var(--pink);
+}
+
+.black-text, .black-text a {
+    color: var(--black);
+}
+
+.light-text, .light-text a {
+    color: var(--animo);
+}
+
+.flex-grow-1{
+    flex-grow: 1;
+}
+
+footer {
+    height: 70px;
+}
+
+.overflow-scroll {
+    overflow-y: scroll;
+}
+
